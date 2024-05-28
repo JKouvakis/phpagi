@@ -1,2 +1,43 @@
-# phpagi
-PHPAGI is a PHP class for the Asterisk Gateway Interface. The package is available for use and distribution under the terms of the GNU Public License.
+PHPAGI README
+-------------
+
+Welcome to PHPAGI. 
+
+phpagi is a set of PHP classes for use in developing applications with
+the Asterisk Gateway Interface, and is licensed under the GNU Lesser
+General Public License (see COPYING for terms).
+
+This release (version 2) of the phpagi classes is a significant overhaul
+from the old version 1 library.  API functions have been renamed and 
+restructured.
+
+Version 1 of phpagi is no longer supported, but will continue to be
+available for historical purposes.  We strongly encourage you to migrate
+to this new version.
+
+If you have developed software based around phpagi, we'd like to hear from 
+you!  Drop us a note, and indicate whether you'd like us to list your 
+application on our website.
+
+## Installation
+
+The preferred way to install this extension is through [composer](https://getcomposer.org/download/).
+
+Either run
+
+```bash
+$ composer require jkouvakis/phpagi ^1.00
+```
+
+or add
+
+```
+"jkouvakis/phpagi": "^1.00"
+```
+
+to the ```require``` section of your `composer.json` file.
+
+FILES
+-----
+* phpagi.php           - The main phpagi class.
+* phpagi-asmanager.php - The Asterisk Manager class.
