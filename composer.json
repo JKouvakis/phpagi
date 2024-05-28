@@ -9,5 +9,7 @@
             "src/phpagi-asmanager.php"
         ]
     },
+    "minimum-stability": "dev",
+    "prefer-stable": true,
     "require": {}
 }
