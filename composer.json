@@ -3,6 +3,9 @@
     "description": "PHPAGI is a PHP class for the Asterisk Gateway Interface.",
     "type": "library",
     "license": "LGPL-2.1-or-later",
+    "require": {
+        "php": "^8.0.0"
+    },
     "autoload": {
         "classmap": [
             "src/phpagi.php",
